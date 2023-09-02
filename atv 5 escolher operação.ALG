@@ -1,17 +1,17 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo QuestÃ£o 5
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Maria Eduarda Chaves Oliveira
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 A : inteiro
 B : inteiro
 operacao : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval("Digite o valor de A: ")
 leia(A)
@@ -23,23 +23,23 @@ LIMPATELA
 
 //escolha
 
-escreval("(1)Adição")
-escreval("(2)Subtração")
-escreval("(3)Multiplicação")
-escreval("(4)Divisão")
+escreval("(1)AdiÃ§Ã£o")
+escreval("(2)SubtraÃ§Ã£o")
+escreval("(3)MultiplicaÃ§Ã£o")
+escreval("(4)DivisÃ£o")
 escreval(" ")
-escreval("Escolha uma Operação: ")
+escreval("Escolha uma OperaÃ§Ã£o: ")
 leia(operacao)
 escreval(" ")
 escolha (operacao)
 caso 1
-     ESCREVA("A soma dos números é: " , A+B)
+     ESCREVA("A soma dos nÃºmeros Ã©: " , A+B)
 caso 2
-     ESCREVA("A diferença dos números é: " , A-B)
+     ESCREVA("A diferenÃ§a dos nÃºmeros Ã©: " , A-B)
 caso 3
-     ESCREVA("O produto dos números é: " , A*B)
+     ESCREVA("O produto dos nÃºmeros Ã©: " , A*B)
 caso 4
-     ESCREVA("O quociente dos números é: " , A/B)
+     ESCREVA("O quociente dos nÃºmeros Ã©: " , A/B)
 FIMESCOLHA
 
 
