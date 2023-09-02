@@ -1,21 +1,21 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo QuestÃ£o 2
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Maria Eduarda Chaves Oliveira
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome : caracter
 sexo : caracter
 estadoCivil : caracter
 anos : inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreval("Informe seu Nome: ")
 leia(nome)
 
-escreval("Informe seu Gênero: ")
+escreval("Informe seu GÃªnero: ")
 leia(sexo)
 
 escreval("Informe seu Estado Civil: ")
@@ -34,7 +34,7 @@ limpatela
 //exibir
 
 escreval("Nome: " ,nome)
-escreval("Gênero: " ,sexo)
+escreval("GÃªnero: " ,sexo)
 escreval("Estado Civil: " ,estadoCivil)
 escreval("Anos de Casada: " ,anos)
 Fimalgoritmo
